@@ -1,1 +1,1 @@
-# PathValidator
+# File Extension Extractor
