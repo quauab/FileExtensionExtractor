@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 import com.gmail.ichglauben.fileextensionextractor.utils.abstracts.CustomClass;
 
-public class AbstractExtensionExtractor extends CustomClass {
+public abstract class AbstractExtensionExtractor extends CustomClass {
 	public AbstractExtensionExtractor() {
 		super();
 	}

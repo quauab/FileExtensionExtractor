@@ -13,11 +13,13 @@ public class App extends CustomClass {
 				img2 = "K:\\media\\graphics\\jpegs\\cats\\misc\\serval.jpg",
 				img3 = "K:\\media\\graphics\\jpegs\\cats\\misc\\bobcat.jpg";
 		String [] imgs = {img2,img1,img3};
+		String ext = null, extNoDot = null;
 		
 		for (String img : imgs) {
 			Path path = null;
 			if (null != (path = Paths.get(img)) ) {
-				print(path.getFileName() + "\tExt: " + ExtensionExtractor.extract(path) + "\tExt No Dot: " + ExtensionExtractor.extract(path,true));
+				if (path.toFile().exists() && null != (ext = ExtensionExtractor.extract(path)) && null != (extNoDot = ExtensionExtractor.extract(path,true)))
+					print(path.getFileName() + "\tExt: " + ext + "\tExt No Dot: " + extNoDot);
 			}
 		}
 	}
