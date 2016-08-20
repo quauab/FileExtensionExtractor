@@ -6,7 +6,7 @@ A simple Java solution for extracting a file's extension - with or without the d
   <li>Download project's zip</li>
   <li>Compile the project</li>
   <li>Generate jar library</li>
-  <li>Add jar to project's build path</li>
+  <li>Add jar as external reference</li>
 </ol>
 
 <h2>Motivation</h2>
