@@ -1,5 +1,6 @@
 # File Extension Extractor
-A simple Java solution for extracting a file's extension - with or without the dot. This project contains an abstract class with a single argument overloaded method "extractExtension" that returns a files extension - including the dot. This project also contains one child class containing an overloaded method "extract" that will (depending on the arguments) return a file's extension with or without the dot.
+
+Extract a file's extension. A Java solution for extracting a file's extension. It contains a method for extracting the extension with the dot and a method to extract the extension without the dot.
 
 <h2>Installation</h2>
 <ol>
