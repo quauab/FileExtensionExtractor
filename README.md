@@ -1,6 +1,6 @@
 # File Extension Extractor
 
-Extract a file's extension. A Java solution for extracting a file's extension. It contains a method for extracting the extension with the dot and a method to extract the extension without the dot.
+Extract a file's extension. 
 
 <h2>Installation</h2>
 <ol>
@@ -14,4 +14,4 @@ Extract a file's extension. A Java solution for extracting a file's extension. I
 A previous project I had worked needed the ability to extract a file's extension with or without the dot, so I had created a Java library that facilitates this task and decided to upload the project to Github as a reference or potential library for others.
 
 <h2>Info</h2>
-This project contains an abstract base class that provides methods for extracting a file's extension with the dot and a child class containing 3 extra 2 argument methods that indicate whether or not to extract the extension with the dot.
+Concrete child class includes a 2 argument method that indicates whether or not to include the dot portion of the extension
